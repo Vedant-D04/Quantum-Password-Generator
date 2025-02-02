@@ -10,7 +10,7 @@ app = Flask(__name__)
 # IBM Quantum account initialization
 service = QiskitRuntimeService(
     channel="ibm_quantum",
-    token="16a37c9054c5a8516f48ccc8249ffc235eb48f03854c22e62cf16f7f059270c5aeef6e276c6bc33f669a4d376e985d6ab310177e587bed2b2f3e0b379ced3a85"
+    token="api token"
 )
 
 # Restricted special characters
