@@ -3,7 +3,7 @@ from qiskit_ibm_runtime import QiskitRuntimeService, Sampler
 import time
 
 # Step 1: Load IBM Quantum Account using QiskitRuntimeService with your API token
-service = QiskitRuntimeService(channel="ibm_quantum", token="03d8a3a6a5e8415d89abc5557cd2ae1d63c4e38e7f140806f919d9833ac967fe5d6fa0558a8ff848c44e3e727f764727ca928e1b6c53ea89fb02d72e4407bc39")
+service = QiskitRuntimeService(channel="ibm_quantum", token="api token")
 
 # Check if the service is loaded successfully
 print("IBM Quantum account successfully loaded!")
