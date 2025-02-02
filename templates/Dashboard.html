@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Your Vault</h2>
+                <p>Access and manage your saved passwords.</p>
+                <a href="{{ url_for('password_generator') }}" class="btn">Go to Password Generator</a>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Secure Manager Inc.</p>
+        </footer>
+    </div>
+</body>
+</html>
