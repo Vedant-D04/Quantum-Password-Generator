@@ -1,3 +1,11 @@
+# Quantum Password Generator
+# Copyright (c) 2024 Vedant D
+# Licensed under the MIT License - see LICENSE file for details
+#
+# Third-party components retain their own licenses:
+# - Qiskit: Apache License 2.0
+# - Qiskit IBM Runtime: Apache License 2.0
+
 from qiskit import QuantumCircuit, transpile
 from qiskit_ibm_runtime import QiskitRuntimeService, Sampler
 import time
