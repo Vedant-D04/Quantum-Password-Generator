@@ -1,0 +1,57 @@
+MIT License
+
+Copyright (c) 2024-2026 Vedant Apurva Desai (Vedant-D04; also credited as Vedant D)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Scope and provenance notice (published 2026-10-09)
+------------------------------------------------
+This grant covers the implementation and explanatory comments authored by
+Vedant Apurva Desai in Password_Generator.py and app1.py in this project,
+including those contributions in the following historical Git blobs:
+
+Password_Generator.py: 07c37d3ed6bf902e7dfac7fb571a6f68dba4f14d
+app1.py: 1ce42f2131a6102485f0a140350bd30401e82ae3
+
+These blob identifiers are the versions recorded in the PQID provenance
+request. This notice grants rights in the author's contributions to those
+versions without rewriting historical commits. It also covers those same
+author-owned contributions in the current versions of the two named files.
+
+Retain the MIT copyright and permission notice above in copies or substantial
+excerpts. The project name is Quantum Password Generator. Preserve any
+applicable existing third-party copyright, license, and attribution notices.
+
+This is a file-scoped grant, not a blanket relicensing of all repository
+contents. Other Python files, notebooks, README content, templates/, static/,
+and other assets are outside this grant unless separately licensed. Imported
+libraries and external resources retain their own terms. The existing source
+header identifies Qiskit and Qiskit IBM Runtime as Apache-2.0 components;
+those components are not relicensed by this notice. Flask and other
+dependencies likewise retain their upstream licenses.
+
+The two inspected source files do not identify specific tutorial sources or
+source revisions. No assertion that all portions are independently authored,
+or that third-party provenance is complete, is made here. Any tutorial-derived
+or other third-party portions remain subject to their original terms and must
+be traced to their sources and revisions before redistribution. This grant
+only covers portions the named author has authority to license.
+
+Licensing does not certify password security, quantum resistance, randomness
+quality, or acceptance into PQID or any other dataset.
